@@ -1,0 +1,15 @@
+{
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "C_Cpp.clang_format_path": "${workspaceRoot}/third_party/v8/buildtools/win/clang-format.exe",
+  "debug.allowBreakpointsEverywhere": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "prettier.endOfLine": "lf",
+  "prettier.proseWrap": "always",
+  "prettier.requireConfig": true,
+  "python.formatting.provider": "yapf",
+  "python.formatting.yapfPath": "${workspaceRoot}/python_packages/yapf",
+  "rust.clippy_preference": "on",
+  "typescript.tsc.autoDetect": "off"
+}
