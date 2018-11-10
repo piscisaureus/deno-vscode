@@ -1,6 +1,6 @@
 {
-  "C_Cpp.clang_format_fallbackStyle": "Google",
   "C_Cpp.clang_format_path": "${workspaceRoot}/third_party/v8/buildtools/win/clang-format.exe",
+  "C_Cpp.clang_format_style": "Google",
   "debug.allowBreakpointsEverywhere": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.formatOnSave": true,
