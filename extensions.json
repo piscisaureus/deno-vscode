@@ -9,6 +9,7 @@
     "gaborv.flatbuffers",
     "ms-python.python",
     "ms-vscode.cpptools",
+    "ms-vscode.vscode-typescript-tslint-plugin",
     "npclaudiu.vscode-gn",
     "rust-lang.rust",
     "stevencl.addDocComments",
