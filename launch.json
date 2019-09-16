@@ -18,6 +18,8 @@
       "symbolSearchPath": "https://msdl.microsoft.com/download/symbols",
       "sourceFileMap": {
         "/rustc/653da4fd006c97625247acd7e076d0782cdc149b": "c:/Users/BertBelder/.rustup/toolchains/nightly-x86_64-pc-windows-msvc/lib/rustlib/src/rust",
+        "/rustc/9fda7c2237db910e41d6a712e9a2139b352e558b": "c:/Users/BertBelder/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust",
+        "/rustc/2aa4c46cfdd726e97360c2734835aa3515e8c858": "c:/Users/BertBelder/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust",
         "f:/dd/vctools/crt/crtw32/misc": "c:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/crt/src/stl",
         "f:/dd/vctools/crt/crtw32/stdcpp": "c:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/crt/src/stl",
         "f:/dd/vctools/crt/crtw32/stdhpp": "c:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/include",
