@@ -4,17 +4,21 @@
   // List of extensions which should be recommended for users of this workspace.
   "recommendations": [
     "bungcip.better-toml",
+    "dbaeumer.vscode-eslint",
     "eg2.tslint",
     "esbenp.prettier-vscode",
     "gaborv.flatbuffers",
     "ms-python.python",
     "ms-vscode.cpptools",
-    "ms-vscode.vscode-typescript-tslint-plugin",
     "npclaudiu.vscode-gn",
     "rust-lang.rust",
     "stevencl.addDocComments",
     "surajbarkale.ninja"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-  "unwantedRecommendations": ["vscode.npm"]
+  "unwantedRecommendations": [
+    "eg2.tslint",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "vscode.npm"
+  ]
 }

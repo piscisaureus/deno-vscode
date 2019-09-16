@@ -5,6 +5,12 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.formatOnSave": true,
   "editor.rulers": [80],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "prettier.endOfLine": "lf",
   "prettier.proseWrap": "always",
   "prettier.requireConfig": true,
