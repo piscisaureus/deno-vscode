@@ -19,6 +19,7 @@
   "unwantedRecommendations": [
     "eg2.tslint",
     "ms-vscode.vscode-typescript-tslint-plugin",
+    "ms-vsts.team",
     "vscode.npm"
   ]
 }
