@@ -15,7 +15,11 @@
   "prettier.proseWrap": "always",
   "prettier.requireConfig": true,
   "python.formatting.provider": "yapf",
-  "python.formatting.yapfPath": "${workspaceRoot}/python_packages/yapf",
+  "python.formatting.yapfPath": "${workspaceRoot}/third_party/python_packages/yapf",
+  "python.linting.pylintPath": "${workspaceRoot}/third_party/python_packages/bin/pylint.bat",
+  "python.linting.pylintArgs": [
+    "--rcfile=${workspaceRoot}/depot_tools/pylintrc"
+  ],
   "rust.clippy_preference": "on",
   "typescript.tsc.autoDetect": "off",
   "files.associations": {
