@@ -8,8 +8,15 @@
       "name": "(Windows) Launch",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/target/debug/deno.exe",
-      "args": ["--allow-net", "--allow-write"],
+      //"program": "${workspaceFolder}\\target\\debug\\deno_core_test.exe",
+      //"args": ["--test-threads", "1", "--nocapture"],
+      "program": "${workspaceFolder}\\target\\debug\\deno.exe",
+      "args": [
+        "--no-prompt",
+        "--reload",
+        "--allow-net",
+        "tests/error_016_dynamic_import_permissions2.js"
+      ],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
