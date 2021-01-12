@@ -5,15 +5,10 @@
   "recommendations": [
     "bungcip.better-toml",
     "dbaeumer.vscode-eslint",
-    "eg2.tslint",
     "esbenp.prettier-vscode",
-    "gaborv.flatbuffers",
-    "ms-python.python",
     "ms-vscode.cpptools",
-    "npclaudiu.vscode-gn",
     "rust-lang.rust",
-    "stevencl.addDocComments",
-    "surajbarkale.ninja"
+    "stevencl.addDocComments"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": [

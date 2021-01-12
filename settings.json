@@ -5,7 +5,7 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "editor.rulers": [80],
+  "editor.rulers": [72, 80],
   "git.ignoreLimitWarning": true,
   "eslint.validate": [
     "javascript",
@@ -16,12 +16,6 @@
   "prettier.endOfLine": "lf",
   "prettier.proseWrap": "always",
   "prettier.requireConfig": true,
-  "python.formatting.provider": "yapf",
-  "python.formatting.yapfPath": "${workspaceRoot}/third_party/python_packages/yapf",
-  "python.linting.pylintPath": "${workspaceRoot}/third_party/python_packages/bin/pylint.bat",
-  "python.linting.pylintArgs": [
-    "--rcfile=${workspaceRoot}/depot_tools/pylintrc"
-  ],
   "rust.cfg_test": true,
   "rust.clippy_preference": "on",
   "typescript.suggest.completeFunctionCalls": true,
@@ -119,5 +113,7 @@
     "__debug": "cpp",
     "__functional_base": "cpp",
     "__tuple": "cpp"
-  }
+  },
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "rust-analyzer.inlayHints.enable": true
 }
